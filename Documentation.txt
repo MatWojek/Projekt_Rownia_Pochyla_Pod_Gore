@@ -1,3 +1,5 @@
+Ruch na równi pochyłej w górę (ruch jednostajnie opóźnony)
+
 Uwzględnić maksymalną prędkość samochodu, pojazdu jadącego
 ‌Zamiana jednostek na km/h jeśli np. Jedzie się rowerem 
 ‌Wykres w pythonie
