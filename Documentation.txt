@@ -1,0 +1,12 @@
+Uwzględnić maksymalną prędkość samochodu, pojazdu jadącego
+‌Zamiana jednostek na km/h jeśli np. Jedzie się rowerem 
+‌Wykres w pythonie
+‌Zapis do excela 
+‌Animacja 
+‌Wprowadzić najwyższy punkt na świecie
+‌Kąt mniejszy niż 90⁰
+‌Wprowadzić masę, kąt, współczynnik tarcia, drogę = wysokość
+‌Ruch jednostajnie opóźniony pod górę
+‌Znaleźć współczynnik tarcia dla opon w necie
+‌Oblicza czas/prędkość końcową/przyspieszenie = opóźnienie 
+‌Na wykresie droga w czasie/ prędkość w czasie/ Energia potencjalna w czasie/ Energia kinetyczna w czasie
