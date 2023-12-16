@@ -21,7 +21,7 @@
 ###### t to czas, 
 ###### a to przyspieszenie wzdłuż równi.
 #### Maksymalna wysokość dla ruchu na równi pochyłej 
-![Maksymalna wysokość bez tarcia](/images/h_bez.pn)
+![Maksymalna wysokość bez tarcia](/images/h_bez.png)
 ###### h to maksymalna wysokość, 
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### α to kąt nachylenia równi, 
@@ -41,7 +41,7 @@
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 ###### μ to współczynnik tarcia.
 #### Przyspieszenie wzdłuż równi z uwzględnieniem tarcia 
-![Przyspieszenie wzdłuż równi z tarciem](a_tarcie.png)
+![Przyspieszenie wzdłuż równi z tarciem](/images/a_tarcie.png)
 ###### a to przyspieszenie wzdłuż równi, 
 ###### α to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
@@ -54,7 +54,7 @@
 ###### a to przyspieszenie wzdłuż równi
 ###### μ to współczynnik tarcia.
 #### Maksymalna wysokość  ruchu na równi pochyłej z uwzględnieniem siły tacia 
-![Maksymalna wysokość z taciem](h_tarcie.png)
+![Maksymalna wysokość z taciem](/images/h_tarcie.png)
 ###### h to maksymalna wysokość, 
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### α to kąt nachylenia równi, 
