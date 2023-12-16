@@ -4,7 +4,7 @@
 ## **2. Wzory wykorzystane w projekcie:**
 ### **a) Wzory bez uwzględnienia tarcia:**
 #### Siła grawitacji na równi pochyłej - F<sub>graw</sub> = m * g * sin(α)
-/main/images/siła_g_bez.png
+!(/main/images/siła_g_bez.png)
 ###### F<sub>graw</sub> to siła wzdłuż równi, 
 ###### m to masa ciała,
 ###### α to kąt nachylenia równi,
