@@ -4,9 +4,12 @@
 ## **2. Wzory wykorzystane w projekcie:**
 ### **a) Wzory bez uwzględnienia tarcia:**
 #### Siła grawitacji na równi pochyłej - F<sub>graw</sub> = m * g * sin(α)
+###### F<sub>graw</sub> to siła wzdłuż równi, 
+###### m to masa ciała,
 ###### α to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 #### Przyspieszenie wzdłuż równi pochyłej - a = g * sin(α)
+###### a to przyspieszenie wzdłuż równi, 
 ###### α to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 #### Ruch jednostajnie opóźniony po równi pochyłej - s = v<sub>0</sub> * t + 1/2 * a * t<sup>2</sup>
@@ -14,13 +17,35 @@
 ###### v<sub>0</sub> to prędkość początkowa,
 ###### t to czas, 
 ###### a to przyspieszenie wzdłuż równi.
-#### Maksymalna wyokość dla ruchu na równi pochyłej - h = (v<sub>0</sub><sup>2</sup> * sin(α)<sup>2</sup>) / ( 2 * g )
+#### Maksymalna wysokość dla ruchu na równi pochyłej - h = ( v<sub>0</sub><sup>2</sup> * sin(α)<sup>2</sup>) / ( 2 * g )
 ###### h to maksymalna wysokość, 
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### α to kąt nachylenia równi, 
-###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>).
 ### **b) Wzory z uwzględnieniem tarcia:**
-#### 
+#### Siła wzdłuż równi z uwzględnieniem tarcia - F<sub>graw</sub> = m * g * sin(α) - μ * m * g * cos(α)
+###### F<sub>graw</sub> to siła wzdłuż równi, 
+###### m to masa ciała, 
+###### α to kąt nachylenia równi,
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
+###### μ to współczynnik tarcia.
+#### Przyspieszenie wzdłuż równi z uwzględnieniem tarcia - a = g ( sin(α) - μ * cos(α) ) 
+###### a to przyspieszenie wzdłuż równi, 
+###### α to kąt nachylenia równi,
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
+###### μ to współczynnik tarcia.
+#### Ruch jednostajnie opóźniony uwzględniając tarcie w górę równi - s = ( v<sub>0</sub> * t - 1/2 * a * t<sup>2</sup> ) / 1 - ( μ * g * t<sup>2</sup> ) / ( 2 * v<sub>0</sub> )
+###### s to odległość przebyta,
+###### v<sub>0</sub> to prędkość początkowa,
+###### t to czas, 
+###### a to przyspieszenie wzdłuż równi
+###### μ to współczynnik tarcia.
+#### Maksymalna wysokość  ruchu na równi pochyłej z uwzględnieniem siły tacia - h = ( v<sub>0</sub><sup>2</sup> * sin(α)<sup>2</sup> ) / 2 * g * ( 1 - μ * cos(α) )
+###### h to maksymalna wysokość, 
+###### v<sub>0</sub> to prędkość początkowa, 
+###### α to kąt nachylenia równi, 
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>), 
+###### μ to współczynnik tarcia. 
 ## **3. Co należy wprowadzić?**
 #### Masę
 #### Kąt
