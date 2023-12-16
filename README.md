@@ -1,5 +1,5 @@
 # Dokumentacja z Projektu z Fizyki 
-## **Temat:**
+## **__Temat:__**
 #### Ruch na równi pochyłej w górę (ruch jednostajnie opóźnony)
 ## **Wzory wykorzystane w projekcie:**
 #### 
