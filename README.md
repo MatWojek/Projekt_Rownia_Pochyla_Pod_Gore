@@ -81,6 +81,32 @@
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
 ###### t to czas
 ###### μ to współczynnik tarcia.
+### **c) Pozostałe wykorzystane wzory: **
+- Energia kinetyczna
+###### ![Energia kinetyczna](/images/ek.png)
+###### E<sub>k</sub> to energia kinetyczna,
+###### m to masa ciała,
+###### v to prędkość obiektu.
+- Energia potencjalna
+###### ![Energia potencjalna](/images/ep.png)'
+###### E<sub>p</sub> to energia potencjalna,
+###### m to masa ciała,
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
+###### h to wysokość nad poziomem referencyjnym. 
+- Zasada zachowania energii na równi pochyłej
+###### ![ZZE](/images/zze_bez.png)
+###### m to masa ciała,
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
+###### h to wysokość nad poziomem referencyjnym,
+###### v to prędkość obiektu.
+  - Przy uwzględnieniu siły tarcia
+  ###### ![ZZE tarcie](/images/zze_tarcie.png)
+  ###### F<sub>tarcie</sub> to siła tarcia,
+  ###### d to odległość, na którą działa siła tarcia, 
+  ###### m to masa ciała,
+  ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
+  ###### h<sub>0</sub> to wysokość początkowa,
+  ###### v<sub>0</sub> to prędkość początkowa obiektu.
 ## **3. Co należy wprowadzić?**
 - Masę ciała,
 - Kąt nachylenia równi,
