@@ -22,6 +22,11 @@
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### α to kąt nachylenia równi, 
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>).
+#### Prędkość końcowa w ruchu jednostajnie opóźnionym pod górę - v<sub>k</sub> = v<sub>0</sub> - g * t
+###### v<sub>k</sub> to prędkość końcowa, 
+###### v<sub>0</sub> to prędkość początkowa, 
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
+###### t to czas. 
 ### **b) Wzory z uwzględnieniem tarcia:**
 #### Siła wzdłuż równi z uwzględnieniem tarcia - F<sub>graw</sub> = m * g * sin(α) - μ * m * g * cos(α)
 ###### F<sub>graw</sub> to siła wzdłuż równi, 
@@ -46,6 +51,12 @@
 ###### α to kąt nachylenia równi, 
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>), 
 ###### μ to współczynnik tarcia. 
+#### Prędkość końcowa w ruchu jednostajnie opóźnionym pod górę - v<sub>k</sub> = ( v<sub>0</sub> - μ * g * t ) / 1 + ( μ * g * t ) / 2 * v<sub>0</sub>
+###### v<sub>k</sub> to prędkość końcowa, 
+###### v<sub>0</sub> to prędkość początkowa, 
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
+###### t to czas
+###### μ to współczynnik tarcia.
 ## **3. Co należy wprowadzić?**
 #### Masę
 #### Kąt
