@@ -21,4 +21,4 @@
 #### Zamiana jednostek na m/s na km/h, jeśli jedzie rower
 #### Aplikacja okienkowa
 #### Animacja wjazdu pod górę równi pochyłej 
-#### Wykres w pythonie (na podstawie danych zapisywanych w pliku Excel) __na wykresie droga w czasie/prędkość w czasie/energia potencjalna w czasie/ energia kinetyczna w czasie__
+#### Wykres w pythonie (na podstawie danych zapisywanych w pliku Excel) _na wykresie należy zawrzeć drogę w czasie/prędkość w czasie/energię potencjalną w czasie/ energię kinetyczną w czasie_
