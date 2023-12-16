@@ -4,13 +4,13 @@
 ## **2. Wzory wykorzystane w projekcie:**
 ### **a) Wzory bez uwzględnienia tarcia:**
 - Siła grawitacji na równi pochyłej 
-![siła grawitacji na równi pochyłej bez tarcia](/images/siła_g_bez.png)
+    ![siła grawitacji na równi pochyłej bez tarcia](/images/siła_g_bez.png)
 ###### F<sub>graw</sub> to siła wzdłuż równi, 
 ###### m to masa ciała,
 ###### θ to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 - Przyspieszenie wzdłuż równi pochyłej
-![Przyspieszenie wzdłuż równi pochyłej](/images/a_bez.png)
+    ![Przyspieszenie wzdłuż równi pochyłej](/images/a_bez.png)
 ###### a to przyspieszenie wzdłuż równi, 
 ###### θ to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
