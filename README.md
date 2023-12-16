@@ -2,7 +2,10 @@
 ## **1. Temat:**
 #### Ruch na równi pochyłej w górę (ruch jednostajnie opóźnony)
 ## **Wzory wykorzystane w projekcie:**
-#### 
+#### Siła grawitacji - F<sub>graw</sub> = m * g * sin(α)
+###### α to kąt nachylenia równi 
+###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>
+
 ## **2. Co należy wprowadzić?**
 #### Masę
 #### Kąt
