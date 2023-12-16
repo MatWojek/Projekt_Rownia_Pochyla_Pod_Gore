@@ -81,7 +81,7 @@
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
 ###### t to czas
 ###### μ to współczynnik tarcia.
-### **c) Pozostałe wykorzystane wzory: **
+### **c) Pozostałe wykorzystane wzory:**
 - Energia kinetyczna
 ###### ![Energia kinetyczna](/images/ek.png)
 ###### E<sub>k</sub> to energia kinetyczna,
