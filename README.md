@@ -4,63 +4,63 @@
 ## **2. Wzory wykorzystane w projekcie:**
 ### **a) Wzory bez uwzględnienia tarcia:**
 - Siła grawitacji na równi pochyłej 
-![siła grawitacji na równi pochyłej bez tarcia](/images/siła_g_bez.png)
+# ![siła grawitacji na równi pochyłej bez tarcia](/images/siła_g_bez.png)
 ###### F<sub>graw</sub> to siła wzdłuż równi, 
 ###### m to masa ciała,
 ###### θ to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 - Przyspieszenie wzdłuż równi pochyłej
-###### ![Przyspieszenie wzdłuż równi pochyłej](/images/a_bez.png)
+# ![Przyspieszenie wzdłuż równi pochyłej](/images/a_bez.png)
 ###### a to przyspieszenie wzdłuż równi, 
 ###### θ to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 - Ruch jednostajnie opóźniony po równi pochyłej 
-![droga w ruchu jednostajnie opóźnionionym po równi pochyłej](/images/s_bez.png)
+### ![droga w ruchu jednostajnie opóźnionionym po równi pochyłej](/images/s_bez.png)
 ###### s to przebyta droga,
 ###### v<sub>0</sub> to prędkość początkowa,
 ###### t to czas, 
 ###### a to przyspieszenie wzdłuż równi.
 - Maksymalna wysokość dla ruchu na równi pochyłej 
-![Maksymalna wysokość bez tarcia](/images/h_bez.png)
+# ![Maksymalna wysokość bez tarcia](/images/h_bez.png)
 ###### h to maksymalna wysokość, 
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### θ to kąt nachylenia równi, 
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>).
 - Prędkość końcowa w ruchu jednostajnie opóźnionym pod górę 
-![Prędkość końcowa w ruchu jednostajnie opóźnionym pod górę bez tarcia](/images/vk_bez.png)
+# ![Prędkość końcowa w ruchu jednostajnie opóźnionym pod górę bez tarcia](/images/vk_bez.png)
 ###### v<sub>k</sub> to prędkość końcowa, 
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
 ###### t to czas. 
 - Czas, w którym ciało wjedzie po równi pochyłej
-![]()
+# ![]()
 ###### t to czas,
 ###### d to odległość, którą ciało przebyło na poziomej powierzchni przed wejściem na równie,
 ###### v<sub>0<sub> to prędkość początkowa,
 ###### θ to kąt nachylenia równi.
 ### **b) Wzory z uwzględnieniem tarcia:**
 - Siła wzdłuż równi z uwzględnieniem tarcia 
-![Siła z tarciem](/images/siła_g_tarcie.png)
+# ![Siła z tarciem](/images/siła_g_tarcie.png)
 ###### F<sub>równi</sub> to siła wzdłuż równi, 
 ###### m to masa ciała, 
 ###### θ to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 ###### μ to współczynnik tarcia.
 - Przyspieszenie wzdłuż równi z uwzględnieniem tarcia 
-![Przyspieszenie wzdłuż równi z tarciem](/images/a_tarcie.png)
+# ![Przyspieszenie wzdłuż równi z tarciem](/images/a_tarcie.png)
 ###### a to przyspieszenie wzdłuż równi, 
 ###### θ to kąt nachylenia równi,
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>),
 ###### μ to współczynnik tarcia.
 - Ruch jednostajnie opóźniony uwzględniając tarcie w górę równi
-![Droga w ruchu jednostajnie opóźnionym z taciem](/images/s_tarcie.png)
+# ![Droga w ruchu jednostajnie opóźnionym z taciem](/images/s_tarcie.png)
 ###### s to odległość przebyta,
 ###### v<sub>0</sub> to prędkość początkowa,
 ###### t to czas, 
 ###### a to przyspieszenie wzdłuż równi
 ###### μ to współczynnik tarcia.
 - Czas, w którym ciało wjedzie po równi pochyłej
-![]()
+# ![]()
 ###### t to czas, 
 ###### s to odległość przebyta (pozioma),
 ###### v<sub>0<sub> to prędkość początkowa,
@@ -68,14 +68,14 @@
 ###### g to przyspiesznie ziemskie (ok. 9,81 m/s<sup>2</sup>)
 ###### μ to współczynnik tarcia.
 - Maksymalna wysokość  ruchu na równi pochyłej z uwzględnieniem siły tacia 
-![Maksymalna wysokość z taciem](/images/h_tarcie.png)
+# ![Maksymalna wysokość z taciem](/images/h_tarcie.png)
 ###### h to maksymalna wysokość, 
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### θ to kąt nachylenia równi, 
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup>), 
 ###### μ to współczynnik tarcia. 
 - Prędkość końcowa w ruchu jednostajnie opóźnionym pod górę 
-![Prędkość końcowa z tarciem](/images/v_tarcie.png)
+# ![Prędkość końcowa z tarciem](/images/v_tarcie.png)
 ###### v<sub>k</sub> to prędkość końcowa, 
 ###### v<sub>0</sub> to prędkość początkowa, 
 ###### g to przyspieszenie ziemskie (ok. 9,81 m/s<sup>2</sup> ),
