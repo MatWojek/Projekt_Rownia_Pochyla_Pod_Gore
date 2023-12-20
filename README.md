@@ -1,6 +1,7 @@
 # Dokumentacja z Projektu z Fizyki 
 ## **1. Temat:**
 #### _Ruch na równi pochyłej w górę (ruch jednostajnie opóźnony)_
+![rysunek](/images/rysunek.png)
 ## **2. Wzory wykorzystane w projekcie:**
 ### **a) Wzory bez uwzględnienia tarcia:**
 - Siła grawitacji na równi pochyłej 
