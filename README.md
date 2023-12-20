@@ -132,7 +132,7 @@
 #### d) Animacja wjazdu pod górę równi pochyłej 
 #### e) Wprowadzimy specjalny tryb laboratoryjny, dzięki któremu będzie można wyłączyć wszelkie ograniczenia związane z wysokością i prękością,
 #### f) Wykres w pythonie (na podstawie danych zapisywanych w pliku Excel) _na wykresie należy zawrzeć drogę w czasie/prędkość w czasie/energię potencjalną w czasie/ energię kinetyczną w czasie_
-## **7. Najważniejsze aspekty: **
+## **7. Najważniejsze aspekty:**
 - Współczynnik tarcia dla opon rowerowych i samochodowych jest różny, w zależności od rodzaju nawierzchni, warunków atmosferycznych, rodzaju opon, ciśnienie w oponach i wielu innych ale ogólnie ograniczymy to tylko do nawierzchni suchej:
   - Nawiecznia sucha - w przypadku suchej nawierzchni współczynnik tarcia dla opon samochodowych wynosi ok. 0,7, zaś dla opon rowerowych ok. 0,5.
   - Nawierzchnia mokra - w przypadku mokrej nawierzchni współczynnik tarcia dla opon samochodowych wynosi ok. 0,5, a dla opon rowerowych ok. 0,4.
