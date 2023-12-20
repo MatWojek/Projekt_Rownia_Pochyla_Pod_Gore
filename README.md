@@ -37,7 +37,7 @@
 ###### ![Czas wjazdu bez tarcia](/images/t_bez.png)
 ###### t to czas,
 ###### d to odległość, którą ciało przebyło na poziomej powierzchni przed wejściem na równie,
-###### v<sub>0<sub> to prędkość początkowa,
+###### v<sub>0</sub> to prędkość początkowa,
 ###### θ to kąt nachylenia równi.
 ### **b) Wzory z uwzględnieniem tarcia:**
 - Siła wzdłuż równi z uwzględnieniem tarcia 
