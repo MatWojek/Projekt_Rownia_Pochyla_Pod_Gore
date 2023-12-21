@@ -16,6 +16,6 @@ print("kat rowna sie: " + str(kat))
 kat_w_radianach = math.radians(kat)
 
 #obliczenia czasu, w ciele ciala wjedzie po rowniej pochylej
-czas = - (v0 + math.sqrt(v0**2 + 2 * G * (u * math.cos(kat_w_radianach) - math.sin(kat_w_radianach)) * s)) / (G * (math.sin(kat_w_radianach) - u * math.cos(kat_w_radianach)))
+czas = (-v0 + math.sqrt(v0**2 + 2 * G * (u * math.cos(kat_w_radianach) - math.sin(kat_w_radianach)) * s)) / (G * (math.sin(kat_w_radianach) - u * math.cos(kat_w_radianach)))
 #wynik
 print(f"czas rowna sie: {czas:.2f} sekund")
