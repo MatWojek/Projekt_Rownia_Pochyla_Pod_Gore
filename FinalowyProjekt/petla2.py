@@ -50,7 +50,7 @@ while(predkosc_poczatkowa > 0): # 'Co TIME' odejmuje od prędkości wartość op
         print("v =", predkosc_poczatkowa)
         file.write(f"{round(timer, 2)}, {round(droga, 2)}, {round(predkosc_poczatkowa, 2)}")
         break
-    # time.sleep(TIME) # Można zakomentować, nic nie zmienia tylko pokazuje jak to gówno działa :)
+    # time.sleep(TIME) # Można zakomentować, nic nie zmienia
     print("v =", predkosc_poczatkowa)
     timer += TIME
     czasyTab.append(timer)
