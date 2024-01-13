@@ -16,8 +16,8 @@ class GUI(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
 
-        self.interfejs()
-
+        self.interfejs() 
+        
     def interfejs(self):
         
         pole1 = QLabel("Współczynnik tarcia: ", self)
@@ -88,7 +88,7 @@ class GUI(QWidget):
         self.setWindowIcon(QIcon('logo.jpg'))
         self.resize(500, 500)
         self.setMinimumWidth(500)
-        self.setMaximumWidth(500)
+        self.setMaximumWidth(1000)
         self.setWindowTitle("Równia pochyła w pod górę")
         self.show()
         
