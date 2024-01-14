@@ -1,7 +1,5 @@
-import time
 import os
 import math
-
 
 # Instalacja matplotlib:
     # python -m pip install -U pip
@@ -12,64 +10,74 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.animation as animation
 
+from dzialania_fizyczne import DzialaniaFizyczne
 
-from maxWys import maxHeight, czas
-from przysp_droga_force import przyspieszenie, droga, force
-
-G = 9.80665
+G = 9.81 
+TIME = 0.2 # Co ile sprawdzać prędkość i drogę
+WSPOLCZYNNIK_TARCIA = 0.5
 
 file = open("wyniki.csv", "w")
 os.system('cls')
 
-v0 = 22
-m = 10
-alfa = 30
-u = 1 # współczynnik tarcia
-s = 30
+predkosc_poczatkowa = float(input("Podaj prędkość początkową: "))
+masa = 10
+kat_nachylenia = float(input("Podaj kąt nachylenia: "))
+dlugosc_rowni = 100
 
-timer = 0
+timer = 0 
 droga = 0
+czyDojechalDoKonca = False
 
 czasyTab = []
 drogiTab = []
 predkosciTab = []
 
-a = przyspieszenie(u, alfa)
-t = czas(v0, alfa, s, u)
-
-TIME = 0.2 # Co ile sprawdzać prędkość i drogę (s)
-
-file.write(f"0, 0, {v0:.2f}\n")
+obliczone_przyspieszenie = DzialaniaFizyczne.przyspieszenieF(WSPOLCZYNNIK_TARCIA, kat_nachylenia)
+# obliczony_czas = DzialaniaFizyczne.czas(predkosc_poczatkowa, kat_nachylenia, droga, WSPOLCZYNNIK_TARCIA)
+print("Obliczone przyśpieszenie:", obliczone_przyspieszenie)
+file.write(f"0, 0, {round(predkosc_poczatkowa, 2)}\n")
 drogiTab.append(0)
 czasyTab.append(0)
-predkosciTab.append(v0)
-while(v0 > 0): # 'Co TIME' odejmuje od prędkości wartość opóźnienia, dodaje do przebytej drogi odl jaką w tą sekunde przejechał obiekt
-    if(v0 < abs(a)*TIME): # gdy 'v0 - a' będzie ujemne trzeba odjąć mniej bo ten złom ma się zatrzymać a nie cofać
-        droga += v0 * v0/abs(a)
+predkosciTab.append(predkosc_poczatkowa)
+while(predkosc_poczatkowa > 0): # 'Co TIME' odejmuje od prędkości wartość opóźnienia, dodaje do przebytej drogi odl jaką w tą sekunde przejechał obiekt
+    if(predkosc_poczatkowa < abs(obliczone_przyspieszenie)*TIME): # gdy 'predkosc_poczatkowa - a' będzie ujemne trzeba odjąć mniej bo ten złom ma się zatrzymać a nie cofać
+        droga += predkosc_poczatkowa * predkosc_poczatkowa/abs(obliczone_przyspieszenie)
         drogiTab.append(droga)
-        timer += v0*TIME/abs(a)
+        timer += predkosc_poczatkowa*TIME/abs(obliczone_przyspieszenie)
         czasyTab.append(timer)
-        print("v =", v0)
-        predkosciTab.append(v0)
-        v0 = 0
-        print("v =", v0)
-        file.write(f"{timer:.2f}, {droga:.2f}, {v0:.2f}")
+        print("v =", predkosc_poczatkowa)
+        predkosciTab.append(predkosc_poczatkowa)
+        predkosc_poczatkowa = 0
+        print("v =", predkosc_poczatkowa)
+        file.write(f"{round(timer, 2)}, {round(droga, 2)}, {round(predkosc_poczatkowa, 2)}")
         break
-    # time.sleep(TIME) # Można zakomentować, nic nie zmienia tylko pokazuje jak to gówno działa :)
-    print("v =", v0)
+    # time.sleep(TIME) # Można zakomentować, nic nie zmienia
+    
+    print("v =", predkosc_poczatkowa)
     timer += TIME
     czasyTab.append(timer)
-    v0 -= abs(a)*TIME
-    predkosciTab.append(v0)
-    droga += v0*TIME
+    predkosc_poczatkowa -= abs(obliczone_przyspieszenie)*TIME
+    predkosciTab.append(predkosc_poczatkowa)
+    droga += predkosc_poczatkowa*TIME
     drogiTab.append(droga)
-    file.write(f"{timer:.2f}, {droga:.2f}, {v0:.2f}\n")
+    file.write(f"{round(timer, 2)}, {round(droga, 2)}, {round(predkosc_poczatkowa,2)}\n")
+
+    # Sprawdza czy zaraz dojedziemy do końca równi lub czy już nie dojechaliśmy
+    if(czyDojechalDoKonca == False and (dlugosc_rowni < droga + (predkosc_poczatkowa - abs(obliczone_przyspieszenie)*TIME))):
+        czyDojechalDoKonca = True
+        pozostala_droga = dlugosc_rowni - droga
+        pozostaly_czas = pozostala_droga / predkosc_poczatkowa
+        predkosc_koncowa = (predkosc_poczatkowa - abs(obliczone_przyspieszenie)*pozostaly_czas)
+        czasPrzejazduRowni = timer + pozostaly_czas
 
 file.close()
-maxHeight = math.sin(math.radians(alfa)) * droga
+maxHeight = math.sin(math.radians(kat_nachylenia)) * droga
 print(f"Czas: {timer:.2f}s")
 print(f"Przebyta droga: {droga:.2f}m")
 print(f"Max wysokość: {maxHeight:.2f}m")
+
+print(f"Czas przejazdu równi: {czasPrzejazduRowni:.2f}s")
+print(f"Prędkość na końcu równi: {predkosc_koncowa:.2f}m/s")
 
 
 fig, ax = plt.subplots()
@@ -79,8 +87,9 @@ fig, ax = plt.subplots()
 
 
 # Wykres z animacją:
-scat = ax.scatter(czasyTab[0], drogiTab[0], c="b", label=f'Czas = {timer:.2f}s')
-line2 = ax.plot(czasyTab[0], drogiTab[0], label=f'Droga = {droga:.2f}m')[0]
+
+scat = ax.scatter(czasyTab[0], drogiTab[0], c="b", label=f'Czas = {round(timer,2)}s')
+line2 = ax.plot(czasyTab[0], drogiTab[0], label=f'Droga = {round(droga)}m')[0]
 ax.set(xlim=[0, max(czasyTab)], ylim=[0, max(drogiTab)+5], xlabel='Czas (s)', ylabel='Droga (m)')
 ax.legend()
 
@@ -97,6 +106,8 @@ def update(frame):
     return (scat, line2)
 
 
-ani = animation.FuncAnimation(fig=fig, func=update, frames=200, interval=TIME*1000)
+ani = animation.FuncAnimation(fig=fig, func=update, frames=300, interval=TIME*1000)
 plt.show()
+
+
 
