@@ -15,6 +15,7 @@ from dzialania_fizyczne import DzialaniaFizyczne
 G = 9.81 
 TIME = 0.2 # Co ile sprawdzać prędkość i drogę
 WSPOLCZYNNIK_TARCIA = 0.5
+dlugosc_rowni = 100
 
 file = open("wyniki.csv", "w")
 os.system('cls')
@@ -22,7 +23,6 @@ os.system('cls')
 predkosc_poczatkowa = float(input("Podaj prędkość początkową: "))
 masa = 10
 kat_nachylenia = float(input("Podaj kąt nachylenia: "))
-dlugosc_rowni = 100
 
 timer = 0 
 droga = 0
@@ -76,8 +76,12 @@ print(f"Czas: {timer:.2f}s")
 print(f"Przebyta droga: {droga:.2f}m")
 print(f"Max wysokość: {maxHeight:.2f}m")
 
-print(f"Czas przejazdu równi: {czasPrzejazduRowni:.2f}s")
-print(f"Prędkość na końcu równi: {predkosc_koncowa:.2f}m/s")
+if(czyDojechalDoKonca):
+    print(f"Czas przejazdu równi: {czasPrzejazduRowni:.2f}s")
+    print(f"Prędkość na końcu równi: {predkosc_koncowa:.2f}m/s")
+else:
+    print(f"Obiekt nie dojechał do końca równi")
+
 
 
 fig, ax = plt.subplots()

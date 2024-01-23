@@ -3,10 +3,10 @@
 # s = (v0*t + 1/2*a*t*t)/(1 - (u*g*t*t)/2*v0)
 import math
 
-G = 9.80665
+G = 9.81
 
 def przyspieszenie(u, alfa):
-    return G*(math.sin(math.radians(alfa)) - u*math.cos(math.radians(alfa)))
+    return G*(math.sin(math.radians(alfa)) + u*math.cos(math.radians(alfa)))
 
 # print(przyspieszenie(1, 30))
 
